@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PERSONAL WEBSITE</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+	<style>
+
+	body{
+		background-image: url("http://ward1.com/blog/wp-content/uploads/IMG_7311.jpg")
+	}
+
+	form{
+		padding-top: 8px;
+		padding-top: 8px;
+	}
+
+	h1{
+		text-align: center;
+		font-size: 40px;
+		color: #fff;
+		background-color: purple;
+		margin-left: 350px;
+		margin-right:350px;
+	}
+
+	h1:hover{
+	
+		border: 5px solid blue;
+		width:600px;
+		margin-left: 320px;
+		background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZyvj9QmNNqK2RhTnEFdOmLsLCIyAC5Z5NcU7G3qhXgzfrisj0");
+	}
+
+	.li1{
+		list-style: none;
+		text-decoration: underline;
+	}
+
+	a:hover img{
+		border: 2px solid green;
+
+	}
+
+
+	.span{
+		color: #fff;
+		font-size: 35px;
+		margin-left: 10px;
+		text-decoration: underline;
+		text-align: center;
+	}
+
+	.span p{
+		float:left;
+	}
+
+
+
+
+
+	#faves li{
+		margin-left: 300px;
+		border: 3px solid blue;
+		width: 575px;
+		list-style: none;
+		color: #fff;
+		text-align: center;
+	
+	}
+
+	#faves li:hover{
+		background-color: purple;
+		border: 5px outset red;
+		padding: 3px;
+		background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThf03rLnJWNHrjfCa4xK1eKBx0veOssW0y_yx7jrieV8mlKm7UpQ");
+		font-family: cursive;
+		font-size:30px;
+	}
+
+
+	#navArea{
+			height:80px;
+				width: 1000px;
+			}
+
+	#nav li{
+				float:left;
+				margin-left: 150px;
+				background-color: white;
+				padding: 10px;
+				border: 2px solid silver;
+				border-radius: 5px;
+				list-style: none;}
+
+	#nav li:hover
+			{background-color: orange}	
+
+	.BELOW{
+		background-color: orange;
+		border-bottom: 2px outset red;
+		text-align: center;
+		height: 40px;
+		font-size: 40px;
+	}
+
+	.FIRST{
+		padding-left:10px;
+		margin-left: 20px;
+		color: #fff;
+		font-size: 100px;
+		text-align: center;
+	}
+
+	.FIRST2{
+		margin-left: 20px;
+		color: #fff;
+		font-size: 100px;
+		text-align: center;
+	}
+	
+	.SECOND{
+		border: 7px blue outset;
+		border-right: 7px pink outset;
+		border-top: 7px yellow outset;
+		border-left: 7px green outset;
+		float: left;
+		width: 300px;
+		text-align: center;
+		color: #fff;
+	}
+
+	.SECOND2{
+		border: 7px blue outset;
+		border-left: 7px pink outset;
+		border-top: 7px yellow outset;
+		border-right: 7px green outset;
+		float: right;
+		width: 300px;
+		text-align: center;
+		color: #fff;
+		height: 713px;
+	}
+
+	form{
+		color: #fff;
+	}
+
+	.games h2{
+	text-align: center;
+	background-image: url("http://i.imgur.com/wHhdRwA.jpg");
+	color: #fff;
+	}
+
+
+	</style>
+</head>
+<body>
+
+<form name="login">
+            MY FIRST NAME<input type="text" name="userid"/>
+            MY FAVORITE DESSERT<input type="password" name="pswrd"/>
+            <input type="button" onclick="check(this.form)" value="THINK YOU GOT IT?"/>
+            <input type="reset" value="Cancel"/>
+        </form>
+
+        <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "Eric" && form.pswrd.value == "Cheesecake") {
+                    window.open('http://memegenerator.net/instance/57531215')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("WHOMP WHOMP, CANT YOU READ SILLY")/*displays error message*/
+                }
+            }
+            
+        </script>
+
+        	<script>
+		$(document).ready(function()
+		{
+
+		$("").animate({
+				opacity: 0.5,
+
+			});
+	
+		$("p").fadeOut(8000, function(){
+		$("p").fadeIn(12000)
+		})
+	});
+
+	</script>
+
+
+<div class="FIRST">GETTING TO KNOW</div>
+<div class="FIRST2">ERIC HOLLINGSWORTH</div>
+
+<p class="BELOW">CHECK OUT SOME OF MY EARLIER WORK BELOW!!!</p>
+
+	<div id="navArea">
+		<ul id="nav">
+		<a href="file:///Users/erichollingsworth/Desktop/NYCDA/RUBICS%20copy.html"><li><b>RUBICS CUBE</b></li></a>
+		<a href="file:///Users/erichollingsworth/Desktop/NYCDA/Practice.html"><li><b>BECOMING A PROGRAMMER</b></li></a>
+		<a href="file:///Users/erichollingsworth/Desktop/NYCDA/AVENGERS.html"><li><b>AVENGERS</b></li></a>
+		
+			</ul>
+			</div>
+
+<div class="SECOND">
+	<ul class="li1">
+		<li>
+			<a href="https://www.youtube.com/watch?v=oriI7u8JlBM">
+				<img src="http://i.imgur.com/qGfK3Ld.png" width="200">
+			</a>
+			<br>
+			<em>
+			SPACE JAM 11's</em>
+			<p style="color: white">DONT SWEAT THE TECHNIQUE</p>
+		
+		</li>
+		<li>
+			<a href="https://www.youtube.com/watch?v=JXRvnTbRTHI">
+				<img src="http://th09.deviantart.net/fs70/PRE/f/2013/211/9/9/jordan_xi__bred__sketch_by_mattisamazingps-d6fv7hn.png" width="200">
+			</a>
+			<br>
+			<em>
+			BRED 11's
+			</em>
+			<p style="color: white">DONT SWEAT THE TECHNIQUE</p>
+			
+		</li>
+		<li>
+			<a href="https://www.youtube.com/watch?feature=player_embedded&v=PM54Go2vTyQ">
+				<img src="https://theillsuite.files.wordpress.com/2013/03/aj-xi.jpg" width="200">
+			</a>
+			<br>
+			<em>
+			CONCORD 11's
+			</em>
+			<p style="color: white">DONT SWEAT THE TECHNIQUE
+			</p>
+		</li>
+	</ul>
+
+
+</div>
+
+<div class="SECOND2">
+	<ul class="li1">
+		<li>
+			<a href="https://www.youtube.com/watch?v=K423NF5JCyo">
+				<img src="http://fc00.deviantart.net/fs27/f/2008/181/6/e/6e02859331a7bde4348f4a5e885461a7.jpg" width="200" height="160">
+			</a>
+				<br>
+			<em>
+			ROYAL BLUES 1's
+			</em>
+			<p style="color: white">DONT SWEAT THE TECHNIQUE</p>
+		
+		</li>
+		<li><a href="https://www.youtube.com/watch?v=4hWdVOOkrX8">
+			<img src="http://fc01.deviantart.net/fs27/f/2008/181/3/1/AIR_JORDAN_9_by_KLRbee.jpg" width="200" height="160">
+		</a>
+			<br>
+			<em>
+			PLAYOFF 9's
+			</em>
+			<p style="color: white">DONT SWEAT THE TECHNIQUE</p>
+			
+		</li>
+		<li>
+			<a href="https://www.youtube.com/watch?v=s20LAGfpwhw">
+				<img src="http://fc00.deviantart.net/fs31/f/2008/195/d/f/df21d2cd41f0175405f04e2bae2168ec.jpg" width="200" height="160">
+			</a>
+			<br>
+			<em>
+			CEMENT 3's
+		</em>
+			<p style="color: white">DONT SWEAT THE TECHNIQUE
+			</p>
+		</li>
+	</ul>
+
+
+</div>
+
+<p class="span">
+	SOME OF MY HOBBIES AND FAVORITE THINGS TO DO</p>
+	<ul id="faves">
+		<a href="http://www.nycgovparks.org/facilities/basketball">
+		<li>BASKETBALL<img src="http://www.olneyisd.net/vimages/shared/vnews/stories/5408b115d6299/basketball-backgrounds.jpg" height="65" width="550"></li></a>
+		<br>
+		<a href="http://newyorkcityskateparks.com/">
+		<li>SKATEBOARD<img src="http://www.highsnobiety.com/news/wp-content/uploads/2008/11/papermag-24h-store-undefeated-geoff-mcfetridge-skateboard-1.jpg" height="65" width="550"></li></a>
+		<br>
+		<a href="http://indoorextremesports.com/">
+		<li>LASERTAG OR PAINTBALL
+			<img src ="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSa20DDWrMIteCyvNyXCzg-EILKONIcsYiJCUmCashTXikzmcS6Hw"  height="65" width="550">
+		</li></a>
+		<br>
+		<a href="http://travel.usnews.com/New_York_NY/Things_To_Do/">
+		<li>PAINT THE CITY RED<img src ="http://th08.deviantart.net/fs12/PRE/i/2006/316/6/f/Sunset_City_by_Sjaakhoofd.jpg" height="65" width="550"></li></a>
+	</ul>
+
+
+
+
+
+
+
+<h1>SNEAKERHEAD<br>
+ FIRE AND HEAT</h1>
+
+ <span class="games">
+	<h2>BEST VIDEO GAMES TO PLAY</h2>
+	
+			<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR6izDmrencS1L3aec6tU_4VMpDI2RNBXkEvZO-Gy-pME_jV6Jejw" width="33%" height="270">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNwYsLR08Yjx00DFtkpHdnmFCsgouH2SKrh9DfMVEuecZEe1FRRw" width="33%" height="270">
+			<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR6A_7lXgU20ZvX7LA-s2gY54jVyMMi0KVyp7kf4ucxiwOcNjJu" width="33%" height="270">
+	
+
+		
+</span>
+
+
+
+
+
+</body>
+</html>
